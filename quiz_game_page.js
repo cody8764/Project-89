@@ -42,7 +42,7 @@ function check() {
         }
         else {
             player2_score = player2_score +1;
-            document.getElementById("player_question").innerHTML = player2_score;
+            document.getElementById("player2_score").innerHTML = player2_score;
         }
     }
     if(question_turn == "player1") {
